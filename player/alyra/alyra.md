@@ -1,4 +1,4 @@
-# Alyra Skins (para que no pregunten mas)
+# Alyra SKINS <3
 
 humilde perfil [Alyra](https://osu.ppy.sh/users/11113213)
 
@@ -23,6 +23,8 @@ humilde perfil [Alyra](https://osu.ppy.sh/users/11113213)
 ## [monkoglass chicony edit](monkoglasschicony.osk?raw=true)
 
 <img width="1920" height="1080" alt="chicoco" src="https://github.com/user-attachments/assets/642a79ea-9bce-465e-8900-2f0b64882354" />
+
+proximamente subo mas
 
 
 
