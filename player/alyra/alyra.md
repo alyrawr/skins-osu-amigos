@@ -10,7 +10,7 @@ linda skin minimalista no banco el cursor pero bueno es lo que hay
 
 
 
-## [synoxa flowers](https://drive.google.com/file/d/1cCa_v5R_wbrn2eW4IkXqkgTSdqlAD44g/view?usp=sharing)
+## [synoxa flowers](synoxa.osk?raw=true)
 
 +hd y :bomb:
 
@@ -18,11 +18,20 @@ linda skin minimalista no banco el cursor pero bueno es lo que hay
 
 
 
-## [saiyku redwhite](https://drive.google.com/file/d/1_pOoyEd7s9hAThvtCUkJa5ik1oWhmaCM/view?usp=sharing)
+## [saiyku redwhite](saiyku.osk?raw=true)
 
 para hr con el cursor chico juega abundante
 
 <img width="1920" height="1080" alt="saiyku" src="https://github.com/user-attachments/assets/f67147f1-fc9b-441f-9cad-2595a4fc69b0" />
+
+
+
+## [monkoglass chicony edit](monkoglasschicony.osk?raw=true)
+
+chilling
+
+<img width="1920" height="1080" alt="chicoco" src="https://github.com/user-attachments/assets/642a79ea-9bce-465e-8900-2f0b64882354" />
+
 
 
 
