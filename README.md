@@ -1,2 +1,3 @@
 # skins-osu-uruguay
-LittleFede Epitaph 700pp
+skins para las chicas de osu uruguay
+:3
