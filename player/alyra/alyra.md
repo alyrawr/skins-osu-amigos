@@ -3,6 +3,8 @@
 osu! username: [Alyra](https://osu.ppy.sh/users/11113213)
 
 ## Skin name
-![preview](preview.png)
+<img width="400" alt="preview" src="https://github.com/user-attachments/assets/a59e689a-870b-47c6-9291-0256887fc5e9" />
 
 [Download](Skin%20Name.osk)
+
+
