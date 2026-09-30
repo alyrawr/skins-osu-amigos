@@ -2,7 +2,7 @@
 
 humilde perfil [Alyra](https://osu.ppy.sh/users/11113213)
 
-## [cat maid spiro edit](https://drive.google.com/file/d/1KKtjoNpv9UdelKoucigii3CmOfoDICOg/view?usp=sharing)
+## [cat maid spiro edit](cat%20maid%20spiro.osk?raw=true)
 
 linda skin minimalista no banco el cursor pero bueno es lo que hay
 
