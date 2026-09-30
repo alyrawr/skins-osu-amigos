@@ -2,7 +2,7 @@
 
 humilde perfil: [Sfp](https://osu.ppy.sh/users/19759215)
 
-## [ReplicantSfp](ReplicantSfp.osk?raw=true)
+## [ReplicantSfp](https://drive.google.com/file/d/1zTod2W9UjPvOX2xw0dYKMuKik9LtlpXC/view?usp=sharing)
 
 <img width="1920" height="1080" alt="sfp1" src="https://github.com/user-attachments/assets/640ee300-5ef5-4a7f-b67f-1fd439ab9cb0" />
 
