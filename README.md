@@ -1,4 +1,4 @@
-# skins-osu-uruguay
+# SKINS OSU AMIGOS
 
 <div align="center">
 
