@@ -16,3 +16,11 @@ humilde perfil: [Spiro_](https://osu.ppy.sh/users/10769585)
 
 <img width="1920" height="1080" alt="spiro4" src="https://github.com/user-attachments/assets/f6a66a03-0606-4c65-8da6-9f9ed15ead54" />
 
+
+
+## [hrmisu](hrmisu.osk?raw=true)
+
+<img width="1920" height="1080" alt="spiro5" src="https://github.com/user-attachments/assets/6fbdbb51-06ae-4c9d-929b-2c472a8fec2a" />
+
+<img width="1920" height="1080" alt="spiro6" src="https://github.com/user-attachments/assets/4de07e68-6452-43f1-a921-4752cb7eee10" />
+
