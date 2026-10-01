@@ -8,4 +8,12 @@ gamer: [Red0_o](https://osu.ppy.sh/users/20771816)
 
 <img width="1920" height="1080" alt="aristiared2" src="https://github.com/user-attachments/assets/a02fd355-ec1e-4e8a-b9e2-40cf41bb1b5a" />
 
+## [Mrekk HDDT Red Edit](mrekkHDDTred.osk?raw=true)
+
+<img width="1920" height="1080" alt="reddt1" src="https://github.com/user-attachments/assets/574c124c-43f0-4857-96ee-8c1ee8453930" />
+
+<img width="1920" height="1080" alt="reddt2" src="https://github.com/user-attachments/assets/43227249-4e10-4efa-bee9-4d2b44b3191a" />
+
+
+
 
