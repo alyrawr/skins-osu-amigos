@@ -10,4 +10,6 @@ Skins para todo el mundo de parte de personas bondadosas con ganas de compartir 
 
 mientras mas gente mejor <3
 
+inspired by [ryancranie's skinhub](https://github.com/ryancranie/skinhub)
+contact alyra__ on discord
 </div>
