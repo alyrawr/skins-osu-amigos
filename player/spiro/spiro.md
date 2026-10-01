@@ -18,7 +18,7 @@ humilde perfil: [Spiro_](https://osu.ppy.sh/users/10769585)
 
 
 
-## [hrmisu](hrmisu.osk?raw=true)
+## [hrmisu](https://github.com/alyrawr/skins-osu-amigos/raw/main/player/spiro/hrmisu.osk)
 
 <img width="1920" height="1080" alt="spiro5" src="https://github.com/user-attachments/assets/6fbdbb51-06ae-4c9d-929b-2c472a8fec2a" />
 
