@@ -1,10 +1,10 @@
-# SKINS OSU AMIGOS
+# Lya's skins repository
 
 <div align="center">
 
 $\color{green}{\textsf{No good thing is pleasant to possess without friends to share it}}$
 
-Skins para todo el mundo de parte de personas bondadosas con ganas de compartir sus gustos, los q quieran agregar sus skins junto a su perfil MD a alyra__ en Discord :))
+skins used by friends
 
 $\color{red}{\textsf{ctrl+click links for direct download im too lazy to fix}}$
 
