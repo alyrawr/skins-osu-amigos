@@ -17,3 +17,13 @@ humilde perfil: [TheChoking](https://osu.ppy.sh/users/18196959)
 <img width="1920" height="1080" alt="bacon2" src="https://github.com/user-attachments/assets/b9eddfef-b1d2-4198-a91f-daf6d8cf2c65" />
 
 
+
+## [vv_idke_trail maxi](vv_idke_trail%20maxi.osk)
+
+<img width="1920" height="1080" alt="idke1" src="https://github.com/user-attachments/assets/b6ea41fa-9430-4e53-9ceb-db69aa12dd6f" />
+
+<img width="1920" height="1080" alt="idke2" src="https://github.com/user-attachments/assets/893478f1-0171-4a7c-8229-b5151ee414e9" />
+
+
+
+
