@@ -15,3 +15,11 @@ humilde perfil: [Niderk](https://osu.ppy.sh/users/22087852)
 <img width="1920" height="1080" alt="niderk3" src="https://github.com/user-attachments/assets/7397f908-cfa5-4276-9227-d296f60430aa" />
 
 <img width="1920" height="1080" alt="niderk4" src="https://github.com/user-attachments/assets/5ba7143e-11e9-412b-a7ce-040483a371f7" />
+
+
+
+## [vv_idke_trail maxi](https://github.com/alyrawr/skins-osu-amigos/raw/main/player/choking/vv_idke_trail%20maxi.osk)
+
+<img width="1920" height="1080" alt="idke1" src="https://github.com/user-attachments/assets/b6ea41fa-9430-4e53-9ceb-db69aa12dd6f" />
+
+<img width="1920" height="1080" alt="idke2" src="https://github.com/user-attachments/assets/893478f1-0171-4a7c-8229-b5151ee414e9" />
