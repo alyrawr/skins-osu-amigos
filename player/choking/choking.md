@@ -2,7 +2,7 @@
 
 humilde perfil: [TheChoking](https://osu.ppy.sh/users/18196959)
 
-## [Vaxei 2023](Vaxei%202023.osk)
+## [Vaxei 2023](Vaxei%202023.osk?raw=true)
 
 <img width="1920" height="1080" alt="vaxei2" src="https://github.com/user-attachments/assets/26c31f95-7e3a-4193-aa68-fff4d61cd4ce" />
 
@@ -18,7 +18,7 @@ humilde perfil: [TheChoking](https://osu.ppy.sh/users/18196959)
 
 
 
-## [vv_idke_trail maxi](vv_idke_trail%20maxi.osk)
+## [vv_idke_trail maxi](vv_idke_trail%20maxi.osk?raw=true)
 
 <img width="1920" height="1080" alt="idke1" src="https://github.com/user-attachments/assets/b6ea41fa-9430-4e53-9ceb-db69aa12dd6f" />
 
