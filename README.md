@@ -2,7 +2,7 @@
 
 <div align="center">
 
-No good thing is pleasant to possess without friends to share it
+$\color{green}{\textsf{No good thing is pleasant to possess without friends to share it}}$
 
 Skins para todo el mundo de parte de personas bondadosas con ganas de compartir sus gustos, los q quieran agregar sus skins junto a su perfil MD a alyra__ en Discord :))
 
