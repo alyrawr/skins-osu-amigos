@@ -24,3 +24,13 @@ humilde perfil: [Spiro_](https://osu.ppy.sh/users/10769585)
 
 <img width="1920" height="1080" alt="spiro6" src="https://github.com/user-attachments/assets/4de07e68-6452-43f1-a921-4752cb7eee10" />
 
+
+
+## [Mae'z Skin](Mae'z%20Skin.osk?raw=true)
+
+<img width="1920" height="1080" alt="spiro7" src="https://github.com/user-attachments/assets/488023da-e634-4d7f-8065-b2706cae99fe" />
+
+<img width="1920" height="1080" alt="spiro8" src="https://github.com/user-attachments/assets/5a4d294c-77f5-4047-b681-bc8fa89859ea" />
+
+
+
