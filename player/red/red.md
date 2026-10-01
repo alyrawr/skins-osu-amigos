@@ -26,5 +26,12 @@ gamer: [Red0_o](https://osu.ppy.sh/users/20771816)
 
 
 
+## [Fiery Red Edit](Fiery%20Red%20Edit.osk?raw=true)
+
+<img width="1920" height="1080" alt="fiery1" src="https://github.com/user-attachments/assets/bbedb60c-a45d-4247-b561-7c15103ae751" />
+
+<img width="1920" height="1080" alt="fiery2" src="https://github.com/user-attachments/assets/f7bd6011-c6d8-4f0b-9c1b-9be306eedda8" />
+
+
 
 
