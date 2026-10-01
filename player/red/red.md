@@ -2,7 +2,7 @@
 
 gamer: [Red0_o](https://osu.ppy.sh/users/20771816)
 
-## [Aristia Red Edit](AristiaRedEdit.osk)
+## [Aristia Red Edit](AristiaRedEdit.osk?raw=true)
 
 <img width="1920" height="1080" alt="aristiared1" src="https://github.com/user-attachments/assets/5015a265-9ebb-4cf5-93e7-500f92c7987d" />
 
