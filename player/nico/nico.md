@@ -2,7 +2,7 @@
 
 humilde perfil: [HaTsunEn1co](https://osu.ppy.sh/users/9973124)
 
-## [-Hatsunen1co aristia- blanco]()
+## [-Hatsunen1co aristia- blanco](aristia%20white.osk?raw=true)
 
 <img width="1920" height="1080" alt="nico1" src="https://github.com/user-attachments/assets/1a297b5a-e9c5-4f5f-b5a6-d02b98df9dbf" />
 
