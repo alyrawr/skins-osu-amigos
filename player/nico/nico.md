@@ -18,7 +18,7 @@ humilde perfil: [HaTsunEn1co](https://osu.ppy.sh/users/9973124)
 
 
 
-## [-random bs xd]()
+## [-random bs xd](https://drive.google.com/file/d/1KhbMxDMNMISXkDktMOWLPQNM06NOtHoP/view?usp=sharing)
 
 <img width="1920" height="1080" alt="nico5" src="https://github.com/user-attachments/assets/5f471684-495e-4f00-b4da-04afa0eee9c4" />
 
