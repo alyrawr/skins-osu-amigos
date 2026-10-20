@@ -1,0 +1,1112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>skins de amigos ♡</title>
+<meta name="description" content="Skins de osu! usadas por amigos: previews y descargas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23ff66aa' stroke='white' stroke-width='6'/%3E%3Ctext x='32' y='42' font-size='28' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3E%E2%99%A1%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fff6fa;
+    --bg-dot: #f7dbe9;
+    --card: #ffffff;
+    --card-2: #fff0f6;
+    --ink: #3d2b3d;
+    --muted: #8e7489;
+    --line: #f3dce8;
+    --pink: #ff66aa;
+    --pink-ink: #d63c84;
+    --pink-soft: #ffe3ef;
+    --lav: #8f6cf0;
+    --lav-soft: #eee8ff;
+    --mint: #20a07c;
+    --mint-soft: #dcf6ec;
+    --sky: #2f8fd6;
+    --sky-soft: #e0f0fc;
+    --shot-bg: #f6e6ef;
+    --shadow: 0 1px 2px rgba(120, 40, 80, .06), 0 10px 28px -12px rgba(200, 60, 120, .28);
+    --shadow-hover: 0 2px 4px rgba(120, 40, 80, .08), 0 18px 40px -14px rgba(200, 60, 120, .4);
+    --radius: 22px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1c1420;
+      --bg-dot: #2b1f30;
+      --card: #271c2b;
+      --card-2: #312336;
+      --ink: #f8eaf3;
+      --muted: #b89db3;
+      --line: #3b2c41;
+      --pink: #ff78b6;
+      --pink-ink: #ff8fc3;
+      --pink-soft: #4a2238;
+      --lav: #b9a0ff;
+      --lav-soft: #2f2647;
+      --mint: #5fd8b2;
+      --mint-soft: #1d3830;
+      --sky: #7cc2f5;
+      --sky-soft: #1c2f40;
+      --shot-bg: #33243a;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 28px -12px rgba(0, 0, 0, .6);
+      --shadow-hover: 0 2px 4px rgba(0, 0, 0, .3), 0 18px 40px -14px rgba(255, 102, 170, .3);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1420;
+    --bg-dot: #2b1f30;
+    --card: #271c2b;
+    --card-2: #312336;
+    --ink: #f8eaf3;
+    --muted: #b89db3;
+    --line: #3b2c41;
+    --pink: #ff78b6;
+    --pink-ink: #ff8fc3;
+    --pink-soft: #4a2238;
+    --lav: #b9a0ff;
+    --lav-soft: #2f2647;
+    --mint: #5fd8b2;
+    --mint-soft: #1d3830;
+    --sky: #7cc2f5;
+    --sky-soft: #1c2f40;
+    --shot-bg: #33243a;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 28px -12px rgba(0, 0, 0, .6);
+    --shadow-hover: 0 2px 4px rgba(0, 0, 0, .3), 0 18px 40px -14px rgba(255, 102, 170, .3);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--ink);
+    background-color: var(--bg);
+    background-image: radial-gradient(var(--bg-dot) 1.4px, transparent 1.6px);
+    background-size: 22px 22px;
+    overflow-x: hidden;
+  }
+  a { color: inherit; }
+  button { font: inherit; color: inherit; }
+  img { display: block; max-width: 100%; }
+  :focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; border-radius: 10px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+  /* ---------- top bar ---------- */
+  .topbar { display: flex; justify-content: flex-end; gap: 8px; padding-top: 16px; }
+  .icon-btn {
+    display: inline-grid; place-items: center;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    border: 1.5px solid var(--line);
+    background: var(--card);
+    color: var(--muted);
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .2s, color .2s, border-color .2s;
+  }
+  .icon-btn:hover { color: var(--pink-ink); border-color: var(--pink); transform: rotate(-8deg) scale(1.06); }
+  .icon-btn svg { width: 19px; height: 19px; }
+  .theme-sun { display: none; }
+  :root[data-theme="dark"] .theme-sun { display: block; }
+  :root[data-theme="dark"] .theme-moon { display: none; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .theme-sun { display: block; }
+    :root:not([data-theme="light"]) .theme-moon { display: none; }
+  }
+
+  /* ---------- hero ---------- */
+  .hero { text-align: center; padding: 8px 0 28px; }
+  .logo { position: relative; width: 78px; height: 78px; margin: 0 auto 14px; }
+  .logo .circle {
+    position: absolute; inset: 0;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ff8cc0, #ff5fa2);
+    border: 5px solid #fff;
+    box-shadow: 0 8px 22px -6px rgba(255, 80, 150, .55);
+    color: #fff;
+    font: 700 30px/1 "Fredoka", sans-serif;
+    animation: bob 3.2s ease-in-out infinite;
+  }
+  .logo .approach {
+    position: absolute; inset: 0;
+    border-radius: 50%;
+    border: 3px solid var(--pink);
+    animation: approach 1.6s cubic-bezier(.4, 0, .6, 1) infinite;
+  }
+  @keyframes approach {
+    0% { transform: scale(1.9); opacity: 0; }
+    30% { opacity: .8; }
+    100% { transform: scale(1); opacity: 0; }
+  }
+  @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+  h1, h2, h3 { font-family: "Fredoka", "Nunito", sans-serif; font-weight: 600; letter-spacing: -.01em; margin: 0; }
+  .hero h1 { font-size: clamp(34px, 6vw, 52px); line-height: 1.05; }
+  .hero h1 .accent { color: var(--pink); }
+  .hero .quote { margin: 10px auto 0; max-width: 34em; color: var(--muted); font-style: italic; }
+  .stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--pink-soft);
+    color: var(--pink-ink);
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .pill.lav { background: var(--lav-soft); color: var(--lav); }
+
+  /* ---------- toolbar ---------- */
+  .toolbar {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    padding: 12px 0;
+    margin-bottom: 8px;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  .toolbar[hidden] { display: none; }
+  .search {
+    flex: 1 1 260px;
+    display: flex; align-items: center; gap: 8px;
+    height: 46px;
+    padding: 0 16px;
+    border-radius: 999px;
+    border: 1.5px solid var(--line);
+    background: var(--card);
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .search:focus-within { border-color: var(--pink); box-shadow: 0 0 0 4px var(--pink-soft); }
+  .search svg { width: 18px; height: 18px; color: var(--muted); flex: none; }
+  .search input {
+    flex: 1; min-width: 0;
+    border: 0; outline: 0; background: transparent;
+    font: inherit; color: var(--ink);
+  }
+  .search input::placeholder { color: var(--muted); }
+  .seg {
+    display: inline-flex; padding: 4px;
+    height: 46px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1.5px solid var(--line);
+  }
+  .seg a {
+    display: inline-flex; align-items: center;
+    padding: 0 16px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--muted);
+    transition: background .2s, color .2s;
+  }
+  .seg a[aria-current="page"] { background: var(--pink); color: #fff; }
+  .seg a:not([aria-current="page"]):hover { color: var(--pink-ink); }
+  .dice {
+    height: 46px;
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 0 16px;
+    border-radius: 999px;
+    border: 1.5px dashed var(--lav);
+    background: var(--lav-soft);
+    color: var(--lav);
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform .2s;
+  }
+  .dice:hover { transform: translateY(-2px); }
+  .dice:hover .die { animation: roll .5s ease; }
+  .die { display: inline-block; font-size: 18px; }
+  @keyframes roll { to { transform: rotate(360deg); } }
+
+  /* ---------- player grid ---------- */
+  .players {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(156px, 1fr));
+    gap: 16px;
+    padding: 8px 0 24px;
+  }
+  .player {
+    position: relative;
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+    padding: 22px 12px 18px;
+    border-radius: var(--radius);
+    background: var(--card);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    text-align: center;
+    transition: transform .25s cubic-bezier(.2, .8, .3, 1.3), box-shadow .25s;
+  }
+  .player:hover { transform: translateY(-5px); box-shadow: var(--shadow-hover); }
+  .player:hover .ava { transform: rotate(-6deg) scale(1.04); }
+  .player .name { font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 18px; line-height: 1.2; overflow-wrap: anywhere; }
+  .player .count { font-size: 13px; font-weight: 700; color: var(--muted); }
+  .emote {
+    position: absolute; top: 12px; right: 12px;
+    padding: 2px 9px;
+    border-radius: 999px 999px 999px 4px;
+    background: var(--pink-soft);
+    color: var(--pink-ink);
+    font: 700 13px/1.4 "Fredoka", sans-serif;
+  }
+
+  .ava {
+    --size: 92px;
+    position: relative;
+    display: grid; place-items: center;
+    width: var(--size); height: var(--size);
+    flex: none;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(from 210deg, var(--pink), #ffb3d4, var(--lav), var(--pink));
+    transition: transform .3s cubic-bezier(.2, .8, .3, 1.3);
+  }
+  .ava img, .ava::after {
+    width: 100%; height: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--card);
+    object-fit: cover;
+    background: var(--card-2);
+  }
+  .ava.noimg img { display: none; }
+  .ava.noimg::after {
+    content: attr(data-initial);
+    display: grid; place-items: center;
+    font: 700 calc(var(--size) * .4) / 1 "Fredoka", sans-serif;
+    color: var(--pink);
+  }
+  .ava.sm { --size: 30px; padding: 2px; }
+  .ava.sm img, .ava.sm::after { border-width: 2px; }
+  .ava.lg { --size: 128px; padding: 5px; }
+
+  /* ---------- skin cards ---------- */
+  .skins {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+    gap: 20px;
+    padding: 8px 0 24px;
+  }
+  .skin {
+    display: flex; flex-direction: column;
+    border-radius: var(--radius);
+    background: var(--card);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: transform .25s, box-shadow .25s;
+  }
+  .skin:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+  .shots { position: relative; aspect-ratio: 16 / 9; background: var(--shot-bg); }
+  .track {
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .track::-webkit-scrollbar { display: none; }
+  .shot {
+    flex: 0 0 100%;
+    height: 100%;
+    padding: 0; border: 0;
+    background: transparent;
+    scroll-snap-align: start;
+    cursor: zoom-in;
+    position: relative;
+  }
+  .shot img { width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .4s; }
+  .shot img.loaded { opacity: 1; }
+  .shot.broken::after, .noshot {
+    content: "sin preview (´・ω・`)";
+    position: absolute; inset: 0;
+    display: grid; place-items: center;
+    color: var(--muted); font-weight: 700;
+  }
+  .shot.broken { cursor: default; }
+  .nav {
+    position: absolute; top: 50%;
+    width: 36px; height: 36px;
+    margin-top: -18px;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    border: 0;
+    background: rgba(255, 255, 255, .9);
+    color: #d63c84;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .18);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .2s, transform .2s;
+  }
+  .nav svg { width: 18px; height: 18px; }
+  .nav.prev { left: 10px; }
+  .nav.next { right: 10px; }
+  .shots:hover .nav, .nav:focus-visible { opacity: 1; }
+  .nav:hover { transform: scale(1.1); }
+  @media (hover: none) { .nav { display: none; } }
+  .dots {
+    position: absolute; left: 0; right: 0; bottom: 10px;
+    display: flex; justify-content: center; gap: 6px;
+    pointer-events: none;
+  }
+  .dots span {
+    width: 7px; height: 7px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    transition: width .25s, background .25s;
+  }
+  .dots span.on { width: 20px; background: #fff; }
+
+  .skin-body { display: flex; flex-direction: column; gap: 12px; padding: 16px 18px 18px; flex: 1; }
+  .skin h3 { font-size: 19px; line-height: 1.25; overflow-wrap: anywhere; }
+  .skin .desc { margin: -4px 0 0; color: var(--muted); font-size: 14px; }
+  .by {
+    display: inline-flex; align-items: center; gap: 8px;
+    align-self: flex-start;
+    padding: 3px 12px 3px 3px;
+    border-radius: 999px;
+    background: var(--card-2);
+    text-decoration: none;
+    font-weight: 700; font-size: 14px;
+    transition: background .2s;
+  }
+  .by:hover { background: var(--pink-soft); color: var(--pink-ink); }
+  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: auto; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    height: 42px;
+    padding: 0 18px;
+    border-radius: 999px;
+    border: 0;
+    background: var(--pink-ink);
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 6px 16px -6px rgba(214, 60, 132, .7);
+    transition: transform .2s, box-shadow .2s, filter .2s;
+  }
+  :root[data-theme="dark"] .btn { background: #e0458c; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn { background: #e0458c; } }
+  .btn:hover { transform: translateY(-2px); filter: brightness(1.06); box-shadow: 0 10px 20px -8px rgba(214, 60, 132, .8); }
+  .btn:active { transform: translateY(0) scale(.97); }
+  .btn svg { width: 18px; height: 18px; }
+  .btn.ghost {
+    background: transparent;
+    color: var(--muted);
+    border: 1.5px solid var(--line);
+    box-shadow: none;
+    padding: 0 14px;
+    font-weight: 700;
+  }
+  .btn.ghost:hover { color: var(--pink-ink); border-color: var(--pink); filter: none; }
+  .host {
+    display: inline-flex; align-items: center;
+    height: 26px;
+    padding: 0 10px;
+    border-radius: 999px;
+    font-size: 12.5px; font-weight: 800;
+    background: var(--card-2); color: var(--muted);
+  }
+  .host.direct { background: var(--mint-soft); color: var(--mint); }
+  .host.discord { background: var(--lav-soft); color: var(--lav); }
+  .host.drive, .host.mediafire { background: var(--sky-soft); color: var(--sky); }
+  .tip { margin: 0; font-size: 13px; color: var(--muted); }
+
+  /* ---------- player page ---------- */
+  .back {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin: 4px 0 18px;
+    padding: 8px 14px 8px 10px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1.5px solid var(--line);
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--muted);
+    transition: color .2s, border-color .2s, transform .2s;
+  }
+  .back:hover { color: var(--pink-ink); border-color: var(--pink); transform: translateX(-3px); }
+  .back svg { width: 18px; height: 18px; }
+  .phead {
+    display: flex; align-items: center; gap: 24px;
+    padding: 24px;
+    border-radius: 28px;
+    background: var(--card);
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+  }
+  .phead h2 { font-size: clamp(28px, 5vw, 40px); line-height: 1.1; display: flex; align-items: center; flex-wrap: wrap; gap: 10px; overflow-wrap: anywhere; }
+  .phead h2 .emote { position: static; font-size: 16px; padding: 3px 11px; }
+  .phead .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+  .osu-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--lav-soft); color: var(--lav);
+    font-weight: 700; font-size: 14px;
+    text-decoration: none;
+  }
+  .osu-link:hover { text-decoration: underline; }
+  .bubble {
+    position: relative;
+    display: inline-block;
+    margin: 14px 0 0;
+    padding: 8px 14px;
+    border-radius: 16px 16px 16px 4px;
+    background: var(--card-2);
+    color: var(--ink);
+    font-size: 14px;
+  }
+  .pnav { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0 24px; }
+  .pnav a {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 6px 16px 6px 6px;
+    border-radius: 999px;
+    background: var(--card);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform .2s;
+  }
+  .pnav a.next { flex-direction: row-reverse; padding: 6px 6px 6px 16px; margin-left: auto; }
+  .pnav a:hover { transform: translateY(-2px); color: var(--pink-ink); }
+  .pnav small { display: block; font-size: 11px; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  @media (max-width: 560px) {
+    .phead { flex-direction: column; text-align: center; padding: 24px 16px; }
+    .phead h2, .phead .meta { justify-content: center; }
+    .search { flex-basis: 100%; }
+    .seg { flex: 1; }
+    .seg a { flex: 1; justify-content: center; padding: 0 10px; white-space: nowrap; }
+    .dice { padding: 0 14px; }
+    .dice .label { display: none; }
+    .players { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+  }
+
+  /* ---------- states ---------- */
+  .empty, .error {
+    text-align: center;
+    padding: 48px 16px;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .empty .face, .error .face { display: block; font-size: 34px; margin-bottom: 8px; color: var(--pink); font-family: "Fredoka", sans-serif; }
+  .skeleton { pointer-events: none; }
+  .skeleton .ava, .skeleton .sk-line {
+    background: linear-gradient(90deg, var(--card-2) 0%, var(--line) 50%, var(--card-2) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.2s linear infinite;
+  }
+  .sk-line { height: 14px; width: 60%; border-radius: 999px; }
+  .sk-line.short { width: 36%; height: 10px; }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+
+  .pop { animation: pop .5s cubic-bezier(.2, .8, .3, 1.2) backwards; animation-delay: calc(min(var(--i, 0), 18) * 35ms); }
+  @keyframes pop { from { opacity: 0; transform: translateY(14px) scale(.97); } }
+
+  /* ---------- lightbox ---------- */
+  .lb {
+    position: fixed; inset: 0; z-index: 50;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding: 56px 16px 16px;
+    background: rgba(28, 14, 26, .9);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    animation: fade .2s ease;
+  }
+  .lb[hidden] { display: none; }
+  @keyframes fade { from { opacity: 0; } }
+  .lb figure { margin: 0; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .lb img {
+    max-width: 100%;
+    max-height: calc(100vh - 190px);
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .5);
+    animation: zoom .25s ease;
+  }
+  @keyframes zoom { from { transform: scale(.96); opacity: .4; } }
+  .lb figcaption {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px;
+    color: #fff;
+    text-align: center;
+  }
+  .lb figcaption strong { font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 20px; }
+  .lb figcaption .muted { color: #e4c8da; font-weight: 700; font-size: 14px; }
+  .lb figcaption .muted a { color: #ffb3d4; }
+  .lb-btn {
+    width: 46px; height: 46px;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    border: 0;
+    background: rgba(255, 255, 255, .14);
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s, transform .2s;
+  }
+  .lb-btn:hover { background: var(--pink); transform: scale(1.06); }
+  .lb-btn svg { width: 22px; height: 22px; }
+  .lb-btn[disabled] { visibility: hidden; }
+  .lb-close { position: absolute; top: 12px; right: 12px; }
+  @media (max-width: 640px) {
+    .lb { grid-template-columns: 1fr; padding: 64px 16px 16px; }
+    .lb .lb-prev, .lb .lb-next { position: absolute; top: 12px; }
+    .lb .lb-prev { left: 12px; }
+    .lb .lb-next { left: 66px; }
+  }
+
+  /* ---------- toast & footer ---------- */
+  .toast {
+    position: fixed; left: 50%; bottom: 24px; z-index: 60;
+    transform: translate(-50%, 20px);
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: var(--ink); color: var(--bg);
+    font-weight: 700;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s, transform .25s;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+  footer {
+    padding: 28px 0 40px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer p { margin: 4px 0; }
+  footer a { color: var(--pink-ink); font-weight: 700; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  footer .heart { color: var(--pink); display: inline-block; animation: beat 1.4s ease-in-out infinite; }
+  @keyframes beat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.25); } 30% { transform: scale(1); } }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="topbar">
+    <a class="icon-btn" id="repo-link" href="https://github.com/alyrawr/skins-osu-amigos" target="_blank" rel="noopener" aria-label="ver el repo en GitHub" title="ver el repo en GitHub">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+    </a>
+    <button class="icon-btn" id="theme-btn" type="button" aria-label="cambiar tema" title="cambiar tema">
+      <svg class="theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <svg class="theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M1.5 12H4M20 12h2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+    </button>
+  </div>
+
+  <header class="hero">
+    <div class="logo" aria-hidden="true"><span class="approach"></span><span class="circle">♡</span></div>
+    <h1>skins de <span class="accent">amigos</span></h1>
+    <p class="quote">“No good thing is pleasant to possess without friends to share it”</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <label class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <span class="sr-only">buscar</span>
+      <input id="q" type="search" placeholder="buscar jugador o skin…" autocomplete="off">
+    </label>
+    <nav class="seg" aria-label="vista">
+      <a href="#/" data-tab="players">jugadores</a>
+      <a href="#/skins" data-tab="skins">todas las skins</a>
+    </nav>
+    <button class="dice" id="random-btn" type="button" title="abrir una skin al azar" aria-label="sorpréndeme: abrir una skin al azar"><span class="die" aria-hidden="true">🎲</span> <span class="label">sorpréndeme</span></button>
+  </div>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer>
+    <p>hecho con <span class="heart">♡</span> para compartir skins entre amigos</p>
+    <p>inspirado en <a href="https://github.com/ryancranie/skinhub" target="_blank" rel="noopener">ryancranie's skinhub</a> · contacto: <strong>alyra__</strong> en discord</p>
+  </footer>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="preview de skin">
+  <button class="lb-btn lb-close" type="button" data-lb="close" aria-label="cerrar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <button class="lb-btn lb-prev" type="button" data-lb="prev" aria-label="anterior">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+  </button>
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" type="button" data-lb="next" aria-label="siguiente">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+  </button>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<noscript><p style="text-align:center">activá JavaScript para ver las skins ♡</p></noscript>
+
+<script>
+/*
+ * Los datos salen directo de README.md (lista de jugadores + avatares) y de
+ * player/<nombre>/<nombre>.md (una skin por cada "## [nombre](link)", con sus
+ * <img> de preview debajo). Para agregar algo, solo hay que editar esos .md.
+ */
+const REPO_RAW = 'https://raw.githubusercontent.com/alyrawr/skins-osu-amigos/main/';
+
+const ICON = {
+  download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>',
+  copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="3"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>',
+  left: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>',
+  right: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>',
+};
+
+const state = { base: '', players: [], skins: [], query: '' };
+const $ = (sel, el = document) => el.querySelector(sel);
+const app = $('#app');
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const attr = (tag, name) => (tag.match(new RegExp('\\b' + name + '\\s*=\\s*"([^"]*)"', 'i')) || [])[1];
+const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const plural = (n) => n + (n === 1 ? ' skin' : ' skins');
+
+/* ---------- parsing ---------- */
+
+function parseReadme(md) {
+  const players = [];
+  const re = /<a\s[^>]*href="([^"]+\.md)"[^>]*>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = re.exec(md))) {
+    const path = m[1].replace(/^\.\//, '');
+    if (/^[a-z]+:/i.test(path)) continue;
+    const img = (m[2].match(/<img\b[^>]*>/i) || [''])[0];
+    const dir = path.replace(/[^/]+$/, '');
+    players.push({
+      path,
+      dir,
+      slug: dir.split('/').filter(Boolean).pop() || path.replace(/\.md$/, ''),
+      avatar: attr(img, 'src') || '',
+      alt: attr(img, 'alt') || '',
+    });
+  }
+  return players;
+}
+
+function parsePlayer(md, meta, base) {
+  const dirUrl = new URL(meta.dir, base);
+  const resolve = (u) => { try { return new URL(u.trim(), dirUrl).href; } catch { return u; } };
+  let title = '';
+  const intro = [];
+  const skins = [];
+  const notes = [];
+  let cur = null;
+
+  for (const line of md.split(/\r?\n/)) {
+    let m;
+    if (!title && (m = line.match(/^#\s+(.+)$/))) { title = m[1].trim(); continue; }
+    if ((m = line.match(/^##\s+(.*)$/))) {
+      const link = m[1].match(/\[(.*?)\]\(\s*([^)\s]+)\s*\)/);
+      cur = {
+        name: (link ? link[1] : m[1]).trim() || 'sin nombre',
+        url: link ? resolve(link[2]) : '',
+        images: [],
+        desc: [],
+      };
+      skins.push(cur);
+      continue;
+    }
+    if (!cur) { intro.push(line); continue; }
+
+    const imgs = [...line.matchAll(/<img\b[^>]*>/gi)].map((t) => attr(t[0], 'src')).filter(Boolean);
+    const mdImgs = [...line.matchAll(/!\[[^\]]*\]\(\s*([^)\s]+)/g)].map((t) => t[1]);
+    if (imgs.length || mdImgs.length) {
+      cur.images.push(...imgs.concat(mdImgs).map(resolve));
+      continue;
+    }
+    const text = line.replace(/<[^>]+>/g, '').trim();
+    if (!text) continue;
+    // texto antes de las previews = descripción de la skin; después = nota del jugador
+    (cur.images.length ? notes : cur.desc).push(text);
+  }
+
+  const introText = intro.join('\n');
+  const osu = introText.match(/\[([^\]]+)\]\((https?:\/\/osu\.ppy\.sh\/users\/\d+)\)/);
+  let tagline = '';
+  if (osu) {
+    const lineWithLink = intro.find((l) => l.includes(osu[0])) || '';
+    tagline = lineWithLink.slice(0, lineWithLink.indexOf(osu[0])).replace(/[:\-–\s]+$/, '').trim();
+  }
+  const titleMatch = title.match(/^(.*?)\s*\bskins\b\s*(.*)$/i);
+  const name = (titleMatch ? titleMatch[1] : title).trim() || (osu && osu[1]) || meta.alt || meta.slug;
+
+  return {
+    ...meta,
+    name,
+    emote: titleMatch ? titleMatch[2].trim() : '',
+    osuName: osu ? osu[1] : '',
+    osuUrl: osu ? osu[2] : '',
+    tagline,
+    notes,
+    avatar: meta.avatar ? new URL(meta.avatar, base).href : '',
+    skins: skins.map((s) => ({ ...s, desc: s.desc.join(' ') })),
+  };
+}
+
+function hostOf(url) {
+  let u;
+  try { u = new URL(url); } catch { return { kind: 'other', label: 'link' }; }
+  const h = u.hostname.replace(/^www\./, '');
+  const sameOrigin = u.origin === location.origin;
+  if (sameOrigin || /(^|\.)github(usercontent)?\.com$/.test(h)) return { kind: 'direct', label: '.osk directo', sameOrigin };
+  if (h.includes('discord')) return { kind: 'discord', label: 'discord' };
+  if (h.includes('drive.google')) return { kind: 'drive', label: 'google drive' };
+  if (h.includes('mediafire')) return { kind: 'mediafire', label: 'mediafire' };
+  if (h.endsWith('s-ul.eu')) return { kind: 'other', label: 's-ul' };
+  if (h.includes('catbox')) return { kind: 'other', label: 'catbox' };
+  return { kind: 'other', label: h };
+}
+
+// .osk directo: descarga en el lugar; otros hosts (drive, discord…): pestaña nueva
+function linkAttrs(host, fileName = '') {
+  if (host.sameOrigin) return fileName ? `download="${esc(fileName)}"` : 'download';
+  return host.kind === 'direct' ? '' : 'target="_blank" rel="noopener"';
+}
+
+/* ---------- loading ---------- */
+
+async function fetchText(url) {
+  const r = await fetch(url, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(r.status + ' ' + url);
+  const t = await r.text();
+  if (/^\s*<(!doctype|html)/i.test(t)) throw new Error('not markdown: ' + url);
+  return t;
+}
+
+async function loadReadme() {
+  // Servido desde el repo (GitHub Pages, servidor local): leemos los .md al lado.
+  // Abierto como archivo o si falla: los traemos desde raw.githubusercontent.
+  if (location.protocol.startsWith('http')) {
+    const local = new URL('./', location.href).href;
+    try { return [local, await fetchText(local + 'README.md')]; } catch {}
+  }
+  return [REPO_RAW, await fetchText(REPO_RAW + 'README.md')];
+}
+
+async function load() {
+  renderSkeleton();
+  try {
+    const [base, readme] = await loadReadme();
+    state.base = base;
+    const metas = parseReadme(readme);
+    const results = await Promise.allSettled(metas.map(async (meta) => parsePlayer(await fetchText(new URL(meta.path, base).href), meta, base)));
+    state.players = results.filter((r) => r.status === 'fulfilled').map((r) => r.value);
+    results.filter((r) => r.status === 'rejected').forEach((r) => console.warn('no se pudo cargar', r.reason));
+    state.skins = state.players.flatMap((p) => p.skins.map((s) => Object.assign(s, { player: p })));
+    state.skins.forEach((s, i) => { s.id = i; });
+    if (!state.players.length) throw new Error('sin jugadores');
+    renderStats();
+    route();
+  } catch (err) {
+    console.error(err);
+    app.innerHTML = `<div class="error"><span class="face">(╥﹏╥)</span>no pude cargar las skins…<br><br><button class="btn" type="button" id="retry">reintentar</button></div>`;
+    $('#retry').onclick = load;
+  }
+}
+
+/* ---------- rendering ---------- */
+
+function avatar(p, size = '') {
+  const initial = esc((p.name || '?').trim().charAt(0).toUpperCase());
+  return `<span class="ava ${size}${p.avatar ? '' : ' noimg'}" data-initial="${initial}">${p.avatar ? `<img src="${esc(p.avatar)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}</span>`;
+}
+
+function renderStats() {
+  $('#stats').innerHTML = `<span class="pill">${state.players.length} amigos</span><span class="pill lav">${plural(state.skins.length)}</span>`;
+}
+
+function renderSkeleton() {
+  $('#toolbar').hidden = false;
+  app.innerHTML = `<div class="players skeleton" aria-label="cargando">${Array.from({ length: 10 }, () => `<div class="player"><span class="ava"></span><span class="sk-line"></span><span class="sk-line short"></span></div>`).join('')}</div>`;
+}
+
+function emptyState(text) {
+  return `<div class="empty"><span class="face">(｡•́︿•̀｡)</span>${esc(text)}</div>`;
+}
+
+function renderPlayers() {
+  const q = norm(state.query.trim());
+  const list = state.players.filter((p) => !q || [p.name, p.osuName, p.slug, ...p.skins.map((s) => s.name)].some((t) => norm(t).includes(q)));
+  if (!list.length) { app.innerHTML = emptyState('nadie por acá con ese nombre'); return; }
+  app.innerHTML = `<div class="players">${list.map((p, i) => `
+    <a class="player pop" style="--i:${i}" href="#/p/${encodeURIComponent(p.slug)}">
+      ${p.emote ? `<span class="emote" aria-hidden="true">${esc(p.emote)}</span>` : ''}
+      ${avatar(p)}
+      <span class="name">${esc(p.name)}</span>
+      <span class="count">${plural(p.skins.length)}</span>
+    </a>`).join('')}</div>`;
+}
+
+function skinCard(s, i, showPlayer) {
+  const host = s.url ? hostOf(s.url) : null;
+  const imgs = s.images;
+  const fileName = host && host.sameOrigin ? decodeURIComponent(new URL(s.url).pathname.split('/').pop()) : '';
+  return `
+  <article class="skin pop" style="--i:${i}">
+    <div class="shots">
+      ${imgs.length ? `<div class="track" data-track>${imgs.map((src, k) => `
+        <button class="shot" type="button" data-open="${s.id}" data-idx="${k}" aria-label="ver preview ${k + 1} de ${esc(s.name)}">
+          <img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer">
+        </button>`).join('')}</div>` : '<div class="noshot"></div>'}
+      ${imgs.length > 1 ? `
+        <button class="nav prev" type="button" data-step="-1" aria-label="preview anterior">${ICON.left}</button>
+        <button class="nav next" type="button" data-step="1" aria-label="preview siguiente">${ICON.right}</button>
+        <div class="dots" aria-hidden="true">${imgs.map((_, k) => `<span class="${k ? '' : 'on'}"></span>`).join('')}</div>` : ''}
+    </div>
+    <div class="skin-body">
+      ${showPlayer ? `<a class="by" href="#/p/${encodeURIComponent(s.player.slug)}">${avatar(s.player, 'sm')}${esc(s.player.name)}</a>` : ''}
+      <h3>${esc(s.name)}</h3>
+      ${s.desc ? `<p class="desc">${esc(s.desc)}</p>` : ''}
+      ${host ? `
+      <div class="actions">
+        <a class="btn" href="${esc(s.url)}" ${linkAttrs(host, fileName)}>${ICON.download} descargar</a>
+        <span class="host ${host.kind}">${esc(host.label)}</span>
+        ${host.kind === 'discord' ? `<button class="btn ghost" type="button" data-copy="${esc(s.url)}" title="copiar link">${ICON.copy} copiar</button>` : ''}
+      </div>
+      ${host.kind === 'discord' ? `<p class="tip">¿el link expiró? copialo y pegalo en cualquier canal de discord, vuelve a andar ✨</p>` : ''}` : ''}
+    </div>
+  </article>`;
+}
+
+function renderAllSkins() {
+  const q = norm(state.query.trim());
+  const list = state.skins.filter((s) => !q || [s.name, s.player.name, s.player.osuName].some((t) => norm(t).includes(q)));
+  if (!list.length) { app.innerHTML = emptyState('no encontré ninguna skin así'); return; }
+  app.innerHTML = `<div class="skins">${list.map((s, i) => skinCard(s, i, true)).join('')}</div>`;
+  bindTracks();
+}
+
+function renderPlayer(p) {
+  const idx = state.players.indexOf(p);
+  const prev = state.players[idx - 1];
+  const next = state.players[idx + 1];
+  const navLink = (o, cls, label) => `<a class="${cls}" href="#/p/${encodeURIComponent(o.slug)}">${avatar(o, 'sm')}<span><small>${label}</small>${esc(o.name)}</span></a>`;
+  app.innerHTML = `
+    <a class="back" href="#/">${ICON.left} todos los amigos</a>
+    <section class="phead pop">
+      ${avatar(p, 'lg')}
+      <div>
+        <h2>${esc(p.name)} ${p.emote ? `<span class="emote">${esc(p.emote)}</span>` : ''}</h2>
+        <div class="meta">
+          <span class="pill">${plural(p.skins.length)}</span>
+          ${p.osuUrl ? `<a class="osu-link" href="${esc(p.osuUrl)}" target="_blank" rel="noopener">${p.tagline ? esc(p.tagline) + ': ' : 'perfil: '}${esc(p.osuName)} ↗</a>` : ''}
+        </div>
+        ${p.notes.length ? `<p class="bubble">${esc(p.notes.join(' '))}</p>` : ''}
+      </div>
+    </section>
+    ${p.skins.length ? `<div class="skins">${p.skins.map((s, i) => skinCard(s, i + 1, false)).join('')}</div>` : emptyState('todavía no subió skins')}
+    <nav class="pnav" aria-label="otros jugadores">
+      ${prev ? navLink(prev, 'prev', 'anterior') : ''}
+      ${next ? navLink(next, 'next', 'siguiente') : ''}
+    </nav>`;
+  bindTracks();
+}
+
+/* ---------- carousel ---------- */
+
+function bindTracks() {
+  app.querySelectorAll('[data-track]').forEach((track) => {
+    const dots = track.parentElement.querySelectorAll('.dots span');
+    if (!dots.length) return;
+    track.addEventListener('scroll', () => {
+      const k = Math.round(track.scrollLeft / track.clientWidth);
+      dots.forEach((d, j) => d.classList.toggle('on', j === k));
+    }, { passive: true });
+  });
+}
+
+function stepTrack(track, dir) {
+  const w = track.clientWidth;
+  const max = track.scrollWidth - w;
+  let left = track.scrollLeft + dir * w;
+  if (left > max + 2) left = 0;
+  if (left < -2) left = max;
+  track.scrollTo({ left, behavior: 'smooth' });
+}
+
+/* ---------- lightbox ---------- */
+
+const lb = { el: $('#lb'), skin: null, idx: 0, lastFocus: null };
+
+function openLightbox(skin, idx = 0) {
+  if (!skin) return;
+  lb.skin = skin;
+  lb.idx = idx;
+  lb.lastFocus = document.activeElement;
+  lb.el.hidden = false;
+  document.body.style.overflow = 'hidden';
+  showLightbox();
+  $('[data-lb="close"]', lb.el).focus();
+}
+
+function showLightbox() {
+  const s = lb.skin;
+  const n = s.images.length;
+  const img = $('#lb-img');
+  img.replaceWith(img.cloneNode()); // reinicia la animación
+  const fresh = $('#lb-img');
+  fresh.src = n ? s.images[lb.idx] : '';
+  fresh.alt = `preview de ${s.name}`;
+  fresh.hidden = !n;
+  $('[data-lb="prev"]', lb.el).disabled = n < 2;
+  $('[data-lb="next"]', lb.el).disabled = n < 2;
+  const host = s.url ? hostOf(s.url) : null;
+  $('#lb-cap').innerHTML = `
+    <span><strong>${esc(s.name)}</strong><br><span class="muted">de <a href="#/p/${encodeURIComponent(s.player.slug)}" data-lb="close">${esc(s.player.name)}</a>${n > 1 ? ` · ${lb.idx + 1}/${n}` : ''}</span></span>
+    ${host ? `<a class="btn" href="${esc(s.url)}" ${linkAttrs(host)}>${ICON.download} descargar</a>` : ''}`;
+}
+
+function closeLightbox() {
+  lb.el.hidden = true;
+  document.body.style.overflow = '';
+  if (lb.lastFocus && document.contains(lb.lastFocus)) lb.lastFocus.focus();
+}
+
+function stepLightbox(dir) {
+  const n = lb.skin.images.length;
+  if (n < 2) return;
+  lb.idx = (lb.idx + dir + n) % n;
+  showLightbox();
+}
+
+/* ---------- routing ---------- */
+
+function route() {
+  if (!state.players.length) return;
+  const hash = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
+  const [section, slug] = hash.split('/');
+  const tab = section === 'skins' ? 'skins' : 'players';
+  document.querySelectorAll('.seg a').forEach((a) => {
+    if (a.dataset.tab === tab) a.setAttribute('aria-current', 'page');
+    else a.removeAttribute('aria-current');
+  });
+
+  if (section === 'p') {
+    const p = state.players.find((x) => x.slug === slug);
+    if (p) {
+      $('#toolbar').hidden = true;
+      document.title = `${p.name} · skins de amigos ♡`;
+      renderPlayer(p);
+      return;
+    }
+  }
+  $('#toolbar').hidden = false;
+  document.title = 'skins de amigos ♡';
+  tab === 'skins' ? renderAllSkins() : renderPlayers();
+}
+
+window.addEventListener('hashchange', () => {
+  if (!lb.el.hidden) closeLightbox();
+  route();
+  // en un jugador, arriba de todo; al cambiar de pestaña, que la barra quede a la vista
+  const hero = $('.hero');
+  window.scrollTo(0, /^#\/p\//.test(location.hash) ? 0 : Math.min(window.scrollY, hero.offsetTop + hero.offsetHeight));
+});
+
+/* ---------- events ---------- */
+
+let toastTimer;
+function toast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+document.addEventListener('click', async (e) => {
+  const open = e.target.closest('[data-open]');
+  if (open && !open.classList.contains('broken')) {
+    openLightbox(state.skins[+open.dataset.open], +open.dataset.idx);
+    return;
+  }
+  const step = e.target.closest('[data-step]');
+  if (step) { stepTrack(step.parentElement.querySelector('[data-track]'), +step.dataset.step); return; }
+
+  const copy = e.target.closest('[data-copy]');
+  if (copy) {
+    try { await navigator.clipboard.writeText(copy.dataset.copy); toast('link copiado ♡'); }
+    catch { prompt('copiá el link:', copy.dataset.copy); }
+    return;
+  }
+
+  const lbBtn = e.target.closest('[data-lb]');
+  if (lbBtn) {
+    const a = lbBtn.dataset.lb;
+    if (a === 'close') closeLightbox();
+    else stepLightbox(a === 'next' ? 1 : -1);
+    return;
+  }
+  if (e.target === lb.el || e.target.tagName === 'FIGURE') closeLightbox();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (lb.el.hidden) return;
+  if (e.key === 'Escape') closeLightbox();
+  else if (e.key === 'ArrowRight') stepLightbox(1);
+  else if (e.key === 'ArrowLeft') stepLightbox(-1);
+  else if (e.key === 'Tab') {
+    const f = [...lb.el.querySelectorAll('button:not([disabled]), a[href]')];
+    const i = f.indexOf(document.activeElement);
+    if (e.shiftKey && i <= 0) { f[f.length - 1].focus(); e.preventDefault(); }
+    else if (!e.shiftKey && i === f.length - 1) { f[0].focus(); e.preventDefault(); }
+  }
+});
+
+// fade-in de previews y fallback de imágenes rotas
+document.addEventListener('load', (e) => {
+  if (e.target.tagName === 'IMG' && e.target.closest('.shot')) e.target.classList.add('loaded');
+}, true);
+document.addEventListener('error', (e) => {
+  const img = e.target;
+  if (img.tagName !== 'IMG') return;
+  const shot = img.closest('.shot');
+  if (shot) shot.classList.add('broken');
+  const ava = img.closest('.ava');
+  if (ava) ava.classList.add('noimg');
+}, true);
+
+$('#q').addEventListener('input', (e) => { state.query = e.target.value; route(); });
+
+$('#random-btn').addEventListener('click', () => {
+  const pool = state.skins.filter((s) => s.images.length);
+  if (pool.length) openLightbox(pool[Math.floor(Math.random() * pool.length)], 0);
+});
+
+/* ---------- theme ---------- */
+
+const root = document.documentElement;
+try { const saved = localStorage.getItem('theme'); if (saved) root.dataset.theme = saved; } catch {}
+$('#theme-btn').addEventListener('click', () => {
+  const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  root.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch {}
+});
+
+load();
+</script>
+</body>
+</html>
